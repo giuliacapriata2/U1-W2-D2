@@ -21,7 +21,14 @@ if (num !== 5) { console.log("not equal") }
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const numero = 20;
+if (numero % 5 === 0) {
+  console.log("Divisibile per 5");
+}
+else {
+  console.log("Non divisibile per 5");
+}
+
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
