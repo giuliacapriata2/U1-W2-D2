@@ -2,7 +2,13 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const num1 = 5;
+const num2 = 15;
+let maggiore;
+if (num1 > num2) { maggiore = num1; }
+else { maggiore = num2; }
+console.log("Il numero maggiore è: " + maggiore);
+
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
