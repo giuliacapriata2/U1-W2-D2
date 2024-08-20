@@ -27,7 +27,20 @@ if (num !== 5) { console.log("not equal") }
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const numero1 = 10;
+const numero2 = 18;
+if (numero1 === 8 || numero2 === 8) {
+  console.log("Uno dei numeri è 8.");
+}
+else if (numero1 + numero2 === 8) {
+  console.log("La somma dei due numeri è 8.");
+}
+else if (numero1 - numero2 === 8 || numero2 - numero1 === 8) {
+  console.log("La differenza tra i due numeri è 8.");
+}
+else {
+  console.log("Nessuna delle condizioni è soddisfatta.");
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
